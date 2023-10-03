@@ -6,6 +6,7 @@ import Texto from "./Texto";
 
 import { useState, useEffect } from "react";
 import textos from "./textos.json";
+import TodoList from "./ToDo";
 
 function App() {
   const [data, setData] = useState([]);
@@ -23,6 +24,7 @@ function App() {
       {data.map((texto) => (
         <Texto title={texto.titulo} text={texto.texto} key={texto.id} />
       ))}
+      <TodoList />
     </>
   );
 }
