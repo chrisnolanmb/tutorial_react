@@ -1,0 +1,28 @@
+React es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario (UI) en aplicaciones web. Fue desarrollada por Facebook y se lanzó por primera vez en 2011. 
+
+React utiliza un enfoque basado en componentes para la construcción de interfaces de usuario, lo que significa que las interfaces se dividen en piezas más pequeñas y manejables llamadas componentes.
+
+ Estos componentes se pueden reutilizar en diferentes partes de la aplicación, lo que hace que el desarrollo sea más rápido y eficiente. 
+ 
+ React también utiliza un enfoque de "renderizado virtual" para actualizar la interfaz de usuario, lo que significa que solo se actualizan los componentes que han cambiado en lugar de volver a renderizar toda la página.
+ 
+ 
+  Esto hace que las aplicaciones sean más rápidas y eficientes en términos de recursos. 
+  
+  React se utiliza ampliamente en la industria y es una de las bibliotecas de JavaScript más populares para la construcción de aplicaciones web.
+
+
+  Existen varias ventajas al utilizar React para construir aplicaciones web:
+
+DOM virtual: React utiliza un DOM virtual, que es una copia ligera del DOM real. Esto permite que React actualice solo las partes de la interfaz de usuario que han cambiado, en lugar de volver a renderizar toda la página. Esto hace que las aplicaciones React sean más rápidas y eficientes.
+
+El DOM (Document Object Model) es una representación en memoria de un documento HTML, XML o XHTML que se utiliza para interactuar con los elementos de la página web. El DOM es una estructura de árbol que representa cada elemento de la página como un objeto en el árbol. Cada objeto en el árbol representa una parte de la página, como un elemento HTML, un atributo de un elemento o un fragmento de texto.
+
+El DOM permite a los desarrolladores acceder y manipular los elementos de la página web utilizando lenguajes de programación como JavaScript. Por ejemplo, se puede utilizar JavaScript para cambiar el contenido de un elemento HTML, agregar o eliminar elementos de la página, o cambiar los estilos CSS de un elemento.
+
+
+
+Flujo unidireccional de datos: React utiliza un flujo unidireccional de datos, lo que significa que los datos fluyen en una única dirección desde los componentes padres hacia los componentes hijos. Esto facilita la depuración y el mantenimiento del código.
+
+
+JSX: React utiliza JSX, que es una extensión de sintaxis que permite a los desarrolladores escribir código similar a HTML dentro de JavaScript. Esto facilita la escritura y comprensión del código.
