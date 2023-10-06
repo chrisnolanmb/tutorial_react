@@ -18,6 +18,7 @@ import {
   EjemploUseRef,
   EjemploUseImperativeHandle,
 } from "./Hooks";
+import Whisper from "./Whisper";
 
 function App() {
   const [data, setData] = useState([]);
@@ -70,6 +71,8 @@ function App() {
       <EjemploUseMemo />
       <EjemploUseRef />
       <EjemploUseImperativeHandle />
+
+      <Whisper />
     </>
   );
 }
