@@ -10,6 +10,8 @@ import React, {
   forwardRef,
 } from "react";
 
+import Button from "react-bootstrap/Button";
+
 // Componente que utiliza useState
 /*
 El hook useState es una función que se utiliza en React para agregar estado a los componentes funcionales.
@@ -29,7 +31,7 @@ const Contador = () => {
     <div>
       <h2>Contador</h2>
       <p>El contador es: {contador}</p>
-      <button onClick={incrementarContador}>Incrementar</button>
+      <Button onClick={incrementarContador}>Incrementar</Button>
     </div>
   );
 };
@@ -57,7 +59,7 @@ const EjemploUseEffect = () => {
     <div>
       <h2>Ejemplo UseEffect</h2>
       <p>El contador es: {contador}</p>
-      <button onClick={incrementarContador}>Incrementar</button>
+      <Button onClick={incrementarContador}>Incrementar</Button>
     </div>
   );
 };
@@ -125,12 +127,12 @@ const EjemploUseReducer = () => {
     <div>
       <h2>Ejemplo UseReducer</h2>
       <p>El contador es: {state.count}</p>
-      <button onClick={() => dispatch({ type: "increment" })}>
+      <Button onClick={() => dispatch({ type: "increment" })}>
         Incrementar
-      </button>
-      <button onClick={() => dispatch({ type: "decrement" })}>
+      </Button>
+      <Button onClick={() => dispatch({ type: "decrement" })}>
         Decrementar
-      </button>
+      </Button>
     </div>
   );
 };
@@ -163,9 +165,9 @@ const EjemploUseCallback = () => {
   return (
     <div>
       <h2>Ejemplo UseCallback</h2>
-      <button onClick={incrementarA}>Incrementar A</button>
-      <button onClick={incrementarB}>Incrementar B</button>
-      <button onClick={memoizedCallback}>Ejecutar Callback</button>
+      <Button onClick={incrementarA}>Incrementar A</Button>
+      <Button onClick={incrementarB}>Incrementar B</Button>
+      <Button onClick={memoizedCallback}>Ejecutar Callback</Button>
       {/* Monstrar los incrementos y el callback */}
       <p>El valor de A es: {a}</p>
       <p>El valor de B es: {b}</p>
@@ -205,8 +207,8 @@ const EjemploUseMemo = () => {
       <p>El valor de A es: {a}</p>
       <p>El valor de B es: {b}</p>
       <p>El valor de A + B es: {memoizedValue}</p>
-      <button onClick={incrementarA}>Incrementar A</button>
-      <button onClick={incrementarB}>Incrementar B</button>
+      <Button onClick={incrementarA}>Incrementar A</Button>
+      <Button onClick={incrementarB}>Incrementar B</Button>
     </div>
   );
 };
@@ -233,7 +235,7 @@ const EjemploUseRef = () => {
     <div>
       <h2>Ejemplo UseRef</h2>
       <p ref={refContainer}>El contador es: {contador}</p>
-      <button onClick={incrementarContador}>Incrementar</button>
+      <Button onClick={incrementarContador}>Incrementar</Button>
     </div>
   );
 };
@@ -293,9 +295,9 @@ const EjemploUseImperativeHandle = () => {
     <div>
       <h2>Ejemplo UseImperativeHandle</h2>
       <ReproductorVideo ref={reproductorRef} />
-      <button onClick={reproducir}>Reproducir</button>
-      <button onClick={pausar}>Pausar</button>
-      <button onClick={rebobinar}>Rebobinar</button>
+      <Button onClick={reproducir}>Reproducir</Button>
+      <Button onClick={pausar}>Pausar</Button>
+      <Button onClick={rebobinar}>Rebobinar</Button>
     </div>
   );
 };
