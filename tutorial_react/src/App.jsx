@@ -7,6 +7,17 @@ import Texto from "./Texto";
 import { useState, useEffect } from "react";
 import textos from "./textos.json";
 import TodoList from "./ToDo";
+//hooks
+import {
+  Contador,
+  EjemploUseEffect,
+  EjemploUseContext,
+  EjemploUseReducer,
+  EjemploUseCallback,
+  EjemploUseMemo,
+  EjemploUseRef,
+  EjemploUseImperativeHandle,
+} from "./Hooks";
 
 function App() {
   const [data, setData] = useState([]);
@@ -25,6 +36,14 @@ function App() {
         <Texto title={texto.titulo} text={texto.texto} key={texto.id} />
       ))}
       <TodoList />
+      <Contador />
+      <EjemploUseEffect />
+      <EjemploUseContext value={"Nolan"} />
+      <EjemploUseReducer />
+      <EjemploUseCallback />
+      <EjemploUseMemo />
+      <EjemploUseRef />
+      <EjemploUseImperativeHandle />
     </>
   );
 }
