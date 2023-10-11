@@ -11,5 +11,5 @@ export default defineConfig({
       },
     },
   },
-  base: "/~a1339846k/ragum/",
+  base: "/",
 });
