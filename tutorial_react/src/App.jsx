@@ -46,6 +46,7 @@ function App() {
   return (
     <>
       <Header> </Header>
+      {/*
       <p className="HolaMundo"> Hola mundo</p>
       <CardContainer>
         <Cards
@@ -71,6 +72,7 @@ function App() {
       <EjemploUseMemo />
       <EjemploUseRef />
       <EjemploUseImperativeHandle />
+    */}
 
       <Whisper />
     </>
