@@ -10,6 +10,6 @@ export default defineConfig({
         additionalData: `@import "bootstrap/scss/bootstrap.scss"`,
       },
     },
-    //base: "/tutorial_react/",
+    base: "/tutorial_react/",
   },
 });
