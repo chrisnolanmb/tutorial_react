@@ -7,8 +7,9 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "bootstrap/scss/bootstrap.scss";`,
+        additionalData: `@import "bootstrap/scss/bootstrap.scss"`,
       },
     },
-    base: /"tutorial_react/",
+    base: "/tutorial_react/",
+  },
 });
