@@ -11,5 +11,5 @@ export default defineConfig({
       },
     },
   },
-  base: "/",
+  base: "/tutorial_react/",
 });
